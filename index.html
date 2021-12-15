@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  <h1> Practica bloque 3</h1> </title>
+<script>
+
+
+function funcion_edad() {
+  var nom = document.getElementById("name").value;
+  var apell = document.getElementById("apellido").value;
+  alert ('Bienvenido ' + nom + ' '+apell )
+}
+
+</script>
+</head>
+
+<body >
+<h1>Eventos HTML</h1>
+Introduce tu nombre:  <input type="text" id="name" onblur="funcion_nom()">
+Introduce tu apellido: <input type="text" id="apellido" onchange="funcion_edad()">
+
+</body>
+<link rel="stylesheet" href="estilo.css">
+</html>
